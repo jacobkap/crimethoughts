@@ -1,0 +1,11 @@
+---
+title: Carjackings from NIBRS data
+author: Jacob Kaplan
+date: '2022-04-23'
+slug: carjackings-from-nibrs-data
+categories:
+  - NIBRS
+tags:
+  - carjacking
+  - NIBRS
+---
