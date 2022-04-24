@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>carjacking on Thoughts About Crime Data and Research</title>
+    <link>/tags/carjacking/</link>
+    <description>Recent content in carjacking on Thoughts About Crime Data and Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/carjacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rise of the (carjacking) Superpredator</title>
+      <link>/2022/04/23/carjackings-from-nibrs-data/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/04/23/carjackings-from-nibrs-data/</guid>
+      <description>## Warning: Removed 5822 rows containing non-finite values (stat_count).Carjackings make up a fairly high share of all robberies, at least higher than I expected. In 2019 there were 92,865 robberies reported among agencies that reported data in both 2019 and 2020. Of those, 7,349 had a motor vehicle stolen which means they were carjackings. That’s about 7.9% of robberies being carjackings. In 2020 the number of robberies remained nearly the same at 92,230 while those with a vehicle stolen from the robbery (i.</description>
+    </item>
+    
+  </channel>
+</rss>
