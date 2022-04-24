@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.97.3" />
 
 
-<title>Rise of the (carjacking) Superpredator - Thoughts About Crime Data and Research</title>
-<meta property="og:title" content="Rise of the (carjacking) Superpredator - Thoughts About Crime Data and Research">
+<title>The Coming of the (carjacking) Superpredator - Thoughts About Crime Data and Research</title>
+<meta property="og:title" content="The Coming of the (carjacking) Superpredator - Thoughts About Crime Data and Research">
 
 
   <link href='https://jacobkap.github.io/crimethoughts/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -19,11 +19,6 @@
 
 
 
-
-
-
-
-<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
 
 
 
@@ -62,10 +57,10 @@
 
   <article class="article">
     
-    <span class="article-duration">3 min read</span>
+    <span class="article-duration">10 min read</span>
     
 
-    <h1 class="article-title">Rise of the (carjacking) Superpredator</h1>
+    <h1 class="article-title">The Coming of the (carjacking) Superpredator</h1>
 
     
     <span class="article-date">2022-04-23</span>
@@ -76,15 +71,34 @@
 <script src="https://jacobkap.github.io/crimethoughts/2022/04/23/carjackings-from-nibrs-data/index_files/header-attrs/header-attrs.js"></script>
 
 
-<pre><code>## Warning: Removed 5822 rows containing non-finite values (stat_count).</code></pre>
-<p><img src="https://jacobkap.github.io/crimethoughts/2022/04/23/carjackings-from-nibrs-data/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<p>Carjackings make up a fairly high share of all robberies, at least higher than I expected. In 2019 there were 92,865 robberies reported among agencies that reported data in both 2019 and 2020. Of those, 7,349 had a motor vehicle stolen which means they were carjackings. That’s about 7.9% of robberies being carjackings. In 2020 the number of robberies remained nearly the same at 92,230 while those with a vehicle stolen from the robbery (i.e. a carjacking) increased by 9,575, about a 30% increase from 2019. As a share of all robberies, in 2020 carjackings made up 10.4% of robberies. So there’s a pretty large increase in percent terms.</p>
-<p>But this is still misleading. When you car is stolen you almost always need a police report for insurance purposes. That’s why motor vehicle theft is one of the best reported crimes. According to the National Crime Victimization Report (NCVS), 79.5% of motor vehicle theft victims reported the theft to the police in 2019 (95% CI [72.43-85.07]). In 2020 that number decreased to 74.6% (95% CI [67.35, 80.76]). (For all the NCVS numbers I am using the extremely useful Bureau of Justice Statistics data tool <a href="https://ncvs.bjs.ojp.gov/single-year-comparison/crimeType">here</a>) NCVS doesn’t ask about carjacking directly (at least not on this data tool) so we don’t know exactly what the reporting rate is for it. You still need a police report for insurance if it’s stolen in a robbery or just a normal theft, so there’s still the strong motivation for reporting to the police. I’d guess (without any evidence) that people are more likely to report when they are carjacked than when their car is just stolen.</p>
+<p>In 1995 John DiLulio, then a politics professor at Princeton, <a href="https://www.washingtonexaminer.com/weekly-standard/the-coming-of-the-super-predators">published in article</a> in the Weekly Standard about the coming wave of superpredators. These superpredators were essentially evil children who did nothing but commit serious crime. In his own words: “on the horizon, therefore, are tens of thousands of severely morally impoverished juvenile super-predators. They are perfectly capable of committing the most heinous acts of physical violence for the most trivial reasons (for example, a perception of slight disrespect or the accident of being in their path.)”<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> His predicted that these superpredators would create a huge increase of crime in the coming years.</p>
+<p>That increase did not appear. Crime continued to fall during the late 1990s and through the early 2000s. His article was, however, influential in supporting tough on crime policies during this period.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>Over 25 years later amid another large violent crime spike there seems to be a repeat of the superpredator claims, though less explicit this time. Since the early months of covid there have been reports - more anecdotal at the time, and more recently with some data - about a large spike in carjacking in major cities. Who is doing this carjacking? From a NY Times <a href="https://www.nytimes.com/2022/03/01/us/car-theft-teens-pandemic.html">article</a>: “Officials say [this] is the most troubling part of the trend: the ages of so many who have been arrested. Fourteen-year-olds, 12-year-olds, even 11-year-olds have been charged with armed carjacking or in some cases murder.” One of the proposed motivations behind the carjackings by these youth was to do it for fun, a way to kill time as they are bored during the pandemic, without concern for their victims. In other words, a form of modern day superpredators. Unlike in the 1990s these reports are generally not followed by calls to increase tough on crime sanctions as a response to the crimes.</p>
+<p>So the claim is that during 2020 and beyond there was a large increase in carjackings, with the main evidence being anecdotes or data from a small number of large cities that show a big percent increase in carjackings by youth (though from a small base rate). If all you’re interested in is what happens in the biggest cities in the US this may be sufficient, after all it is data from these cities directly. There is also data available from the FBI that allows us to examine these questions from many more police agencies, though with some important limitations.</p>
+<p>First let’s define our questions. 1) Did carjackings increase in 2020 (2021 data is not available from the FBI yet)? 2) Are these carjackers mostly people under age 18?</p>
+<p>Now let’s talk about the data. We’ll use the FBI’s National Incident-Based Reporting System (NIBRS) data which is the only national data detailed enough to analyze this. It’s not actually truly national though. NIBRS data provides detailed information about every crime reported to the police. But to get this the police must send that data to the FBI. In 2020 that’s missing nearly half of police agencies. And those that report are disproportionately small, rural, concentrated in the South, Midwest, and Appalachian Mountain states. So not nationally representative and excludes many of the largest cities. Still, this data can be useful.</p>
+<p>For this analysis I will restrict the data to only police agencies that reported data in both 2019 and 2020. Since reporting data is voluntary if I didn’t have this restriction we wouldn’t have a valid comparison due to different agencies reporting each year.</p>
+<p>Now let’s define exactly what a carjacking is because there is some confusion on it. A carjacking is a robbery. More specifically, it is a robbery where a motor vehicle is stolen. It is not a motor vehicle theft. It’s subtle but the distinction is important. Carjackings are a subset of robberies, not of motor vehicle thefts. In NIBRS data a crime incident can have multiple offenses so you may think that carjackings are incidents with both robberies and motor vehicle thefts. It’s not. The way to identify a carjacking in NIBRS is to find robberies and then see what type of property was stolen. If it is a type of motor vehicle, that’s a carjacking. The limitation of this is that if there’s an attempted carjacking, so no vehicle successfully stolen, there would be no way to detect that in NIBRS. This method, therefore, undercounts carjackings as it only includes successful carjackings.</p>
+<p>Let’s start by looking at how many carjackings happened each year, both total and a share of all robberies. Carjackings make up a fairly high share of all robberies, at least higher than I expected. In 2019 there were 92,865 robberies reported among agencies that reported data in both 2019 and 2020. Of those, 7,349 had a motor vehicle stolen which means they were carjackings. That’s about 7.9% of robberies being carjackings. In 2020 the number of robberies remained nearly the same at 92,230 while those with a vehicle stolen from the robbery (i.e. a carjacking) increased by 9,575, about a 30% increase from 2019. As a share of all robberies, in 2020 carjackings made up 10.4% of robberies. So there’s a pretty large increase in percent terms.</p>
+<p>But this is still misleading. When your car is stolen you almost always need a police report for insurance purposes. That’s why motor vehicle theft is one of the best reported crimes. According to the National Crime Victimization Report (NCVS), 79.5% of motor vehicle theft victims reported the theft to the police in 2019 (95% CI [72.43-85.07]). In 2020 that number decreased to 74.6% (95% CI [67.35, 80.76]). (For all the NCVS numbers I am using the extremely useful Bureau of Justice Statistics data tool <a href="https://ncvs.bjs.ojp.gov/single-year-comparison/crimeType">here</a>) NCVS doesn’t ask about carjacking directly (at least not on this data tool), so we don’t know exactly what the reporting rate is for it. You still need a police report for insurance if it’s stolen in a robbery or just a normal theft, so there’s still the strong motivation for reporting to the police. I’d guess (without any evidence) that people are more likely to report when they are carjacked than when their car is just stolen.</p>
 <p>Robberies on the other hand, are much less reported. According to the same NCVS data, about 46.6% of robberies in 2019 (95% CI [36.69-56.85]) and 54.3% in 2020 (95% CI [43.36-64.91]) were reported to the police. Again, since this is NCVS the robberies include carjacking alongside other robberies. So this means that our numerator (carjackings) is better reported than our denominator (all robberies). Basically, this inflates the share of robberies than are carjackings.</p>
 <p>Since we have the reporting rate we can adjust our NIBRS numbers to account for that. Let’s just assume that carjackings are perfectly reported so our NIBRS numbers are the true numbers. Now let’s adjust our robbery numbers by NCVS reporting rates. To do this we multiple our NIBRS numbers for each year by 1/reporting_rate that year. In 2019 there were 92,865 robberies and a reporting rate of 46.6% so 92,865*(1/0.466) = 199,281 robberies. For 2020 that’s 92,230*(1/0.543) = 169,852 robberies.</p>
-<p>Then our 2019 share of carjackings is 7,349/199,281 = 0.037
-And the 2020 share is 9,575/169,852 = 0.056</p>
-<p>The percent change is actually bigger here, with a 51.4% increase from 2019 to 2020. Now we used NCVS data which is nationally representative. Our NIBRS data is not nationally representative, far from it. NCVS doesn’t allow us to be more detailed than national data or large subregions so this is as good as we’ll get using this data. And no other data that I’m aware of can function as a replacement of NCVS. So is this a worthless exercise since we’re trying to use national data to adjust for missingness in non-representative non-national data?</p>
+<p>Then our 2019 share of carjackings is 7,349/199,281 = 0.037</p>
+<p>And the 2020 share is 9,575/169,852 = 0.056</p>
+<p>The percent change is actually bigger here, with a 51.4% increase from 2019 to 2020. Now we used NCVS data which is nationally representative. Our NIBRS data is not nationally representative, far from it. NCVS doesn’t allow us to be more detailed than national data or large subregions, so this is as good as we’ll get using this data. And no other data that I’m aware of can function as a replacement of NCVS. So is this a worthless exercise since we’re trying to use national data to adjust for missingness in non-representative non-national data?
+We looked at the data three ways: number of carjackings, share of carjackings out of robberies, and share when adjusting for underreporting. All told the same story of carjackings going up in 2020 compared to 2019, and all had a large effect size, though ranging pretty widely. All of these are certainly wrong, especially if we want to generalize beyond the agencies we have. But exercises like this are, I think, important to checking your findings. I think it’s important to first find an answer to your question and then try to kill that finding by measuring it many different ways. If the results still hold then it’s probably roughly accurate. In this case the NCVS comparison is probably too far of a stretch to be useful as it’s comparing national data to non-representative data, but it’s a useful example.</p>
+<p>Now let’s look at our second question, whether carjackers are frequently young. Here’s a graph showing the percent of carjackers of each age for offenders of carjackings in 2020. There are exactly 18,000 carjacking offenders in our data, but the age is unknown for 5,822 of them so this graph shows data for the 12,178 we have age info for. There are some clear data issues here - note the carjackers aged 1 and aged 100. And the spike at age 58.</p>
+<p><img src="https://jacobkap.github.io/crimethoughts/2022/04/23/carjackings-from-nibrs-data/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>This group is certainly on the younger side - as all criminals are - but to me it doesn’t indicate that carjacking is hugely driven by youth. The mean age is 25 (median = 22) and about 21% of offenders are under the age of 18 meaning that the vast majority are adults. NIBRS age data is also perceived or suspected age unless the offender is identified. So reports of an increase in youth offenders can mechanically increase the share of youth offenders if victims now think their offender is younger than they would have otherwise said.</p>
+<p>Did 2020 have more youth offenders than 2019? The average age in 2019 is 25 (median = 22), the same as in 2020. The share of offenders under the age of 18 is 21%, again the same as in 2020. The total number of youth offenders did increase from 2,142 in 2019 to 2,544 in 2020 but that seems to be youth offenders increasing their carjacking at the same rate as adult offenders.</p>
+<p>So what does this cursory look at the data find? There is indeed an increase in carjackings from 2019 to 2020, though the exact size is very imprecise due to measurement problems. And the majority of carjacking offenders are adults, meaning that it is not driven by youth offenders. However, this is data from a non-representative sample of the US and largely excludes the largest cities so is likely not comparable to these cities where most of the current data on carjackings is reported from. The findings here are not the same as found in the reports in big cities. So are those reports wrong? Potentially. Reports about superpredators (or really any kind of scary fad) are probably more likely to make the news than regular boring crime. But it could be that there are true differences between some of the largest cities and the cities included in NIBRS data, which are much smaller on average. Most media and many academic papers focus on these extremely large cities, usually because they give better, timely data on important topics. But it can be misleading to generalize from these cities, as shown in this case.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>His solution to this problem, as is his continued career focus, is that the Christian church can help reduce crime.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>It’s also notable that his article is very similar to Elijah Anderson’s Code of the Streets, even down to discussing the code: “They live by the meanest code of the meanest streets, a code that reinforces rather than restrains their violent hair-trigger mentality.” I think the lesson from this is that studying Philly is going to give you a very violently skewed picture of the world that doesn’t generalize elsewhere (DiLulio talks about Philly at the start of the article).<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
 
     </div>
   </article>
@@ -107,18 +121,6 @@ And the 2020 share is 9,575/169,852 = 0.056</p>
 
     </div>
     
-
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
 
     
 

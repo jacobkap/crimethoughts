@@ -35,6 +35,7 @@ Robberies on the other hand, are much less reported. According to the same NCVS 
 Since we have the reporting rate we can adjust our NIBRS numbers to account for that. Let's just assume that carjackings are perfectly reported so our NIBRS numbers are the true numbers. Now let's adjust our robbery numbers by NCVS reporting rates. To do this we multiple our NIBRS numbers for each year by 1/reporting_rate that year. In 2019 there were 92,865 robberies and a reporting rate of 46.6% so 92,865\*(1/0.466) = 199,281 robberies. For 2020 that's 92,230\*(1/0.543) = 169,852 robberies. 
 
 Then our 2019 share of carjackings is 7,349/199,281 = 0.037
+
 And the 2020 share is 9,575/169,852 = 0.056
 
 The percent change is actually bigger here, with a 51.4% increase from 2019 to 2020. Now we used NCVS data which is nationally representative. Our NIBRS data is not nationally representative, far from it. NCVS doesn't allow us to be more detailed than national data or large subregions, so this is as good as we'll get using this data. And no other data that I'm aware of can function as a replacement of NCVS. So is this a worthless exercise since we're trying to use national data to adjust for missingness in non-representative non-national data? 
@@ -42,7 +43,7 @@ We looked at the data three ways: number of carjackings, share of carjackings ou
 
 Now let's look at our second question, whether carjackers are frequently young. Here's a graph showing the percent of carjackers of each age for offenders of carjackings in 2020. There are exactly 18,000 carjacking offenders in our data, but the age is unknown for 5,822 of them so this graph shows data for the 12,178 we have age info for. There are some clear data issues here - note the carjackers aged 1 and aged 100. And the spike at age 58. 
 
-```{r, message=FALSE, echo = FALSE}
+```{r, message=FALSE, echo = FALSE, warning=FALSE}
 library(ggplot2)
 library(crimeutils)
 carjack_offenders <- readRDS("carjacking_offenders_2020.rds")
