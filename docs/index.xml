@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts About Crime Data and Research</title>
+    <link>https://jacobkap.github.io/crimethoughts/</link>
+    <description>Recent content on Thoughts About Crime Data and Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jacobkap.github.io/crimethoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Saying No</title>
+      <link>https://jacobkap.github.io/crimethoughts/2022/04/24/on-saying-no/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jacobkap.github.io/crimethoughts/2022/04/24/on-saying-no/</guid>
+      <description>Why say no This chapter is primarily focused towards academics conducting research. While it may apply to other fields, it discusses choosing which studies to conduct, which may be a privilege not afforded to other jobs. For this reason, please feel free to skip this chapter if you&amp;rsquo;d like.^[Academics who have more hourly tweets than lifetime publications should stop reading this chapter and start writing more papers.]
+Academia is built on uncertainty.</description>
+    </item>
+    
+    <item>
+      <title>NIBRS is a looming disaster for criminology, but not for crime research</title>
+      <link>https://jacobkap.github.io/crimethoughts/2022/04/23/nibrs-is-a-looming-disaster-for-criminology-but-not-for-crime-research/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jacobkap.github.io/crimethoughts/2022/04/23/nibrs-is-a-looming-disaster-for-criminology-but-not-for-crime-research/</guid>
+      <description>Last year marked the first year that the FBI stopped collecting UCR data and only took NIBRS data from police agencies. Now, 16 months after they started collecting data we still have another 6 or 7 months to wait until they release the data, as the FBI normally releases NIBRS in October or November of the year following the data collection. NIBRS data has been around since 1991 so criminologists have had over 30 years to prepare for using NIBRS data instead of relying on UCR data.</description>
+    </item>
+    
+    <item>
+      <title>Rise of the (carjacking) Superpredator</title>
+      <link>https://jacobkap.github.io/crimethoughts/2022/04/23/carjackings-from-nibrs-data/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jacobkap.github.io/crimethoughts/2022/04/23/carjackings-from-nibrs-data/</guid>
+      <description>## Warning: Removed 5822 rows containing non-finite values (stat_count).Carjackings make up a fairly high share of all robberies, at least higher than I expected. In 2019 there were 92,865 robberies reported among agencies that reported data in both 2019 and 2020. Of those, 7,349 had a motor vehicle stolen which means they were carjackings. That’s about 7.9% of robberies being carjackings. In 2020 the number of robberies remained nearly the same at 92,230 while those with a vehicle stolen from the robbery (i.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jacobkap.github.io/crimethoughts/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>https://jacobkap.github.io/crimethoughts/about/</guid>
+      <description>This is a blog by me, Jacob Kaplan, about crime data and crime research.</description>
+    </item>
+    
+  </channel>
+</rss>

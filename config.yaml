@@ -1,4 +1,5 @@
 baseurl: https://jacobkap.github.io/crimethoughts/
+publishdir: docs
 languageCode: en-us
 title: Thoughts About Crime Data and Research
 theme: hugo-lithium
