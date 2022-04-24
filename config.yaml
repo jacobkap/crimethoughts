@@ -1,5 +1,4 @@
 baseurl: https://crimethoughts.com/
-publishdir: docs
 languageCode: en-us
 title: Thoughts About Crime Data and Research
 theme: hugo-lithium
@@ -18,7 +17,7 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/jacobkap/crimethoughts
+      url: https://github.com/jacobkap
     - name: Twitter
       url: https://twitter.com/JacobKaplanCrim
 params:
