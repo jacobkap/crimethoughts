@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Thoughts About Crime Data and Research</title>
-    <link>/tags/</link>
+    <link>https://jacobkap.github.io/crimethoughts/tags/</link>
     <description>Recent content in Tags on Thoughts About Crime Data and Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jacobkap.github.io/crimethoughts/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>academia</title>
-      <link>/tags/academia/</link>
+      <link>https://jacobkap.github.io/crimethoughts/tags/academia/</link>
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/academia/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/tags/academia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>criminology</title>
-      <link>/tags/criminology/</link>
+      <link>https://jacobkap.github.io/crimethoughts/tags/criminology/</link>
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/criminology/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/tags/criminology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>carjacking</title>
-      <link>/tags/carjacking/</link>
+      <link>https://jacobkap.github.io/crimethoughts/tags/carjacking/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/carjacking/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/tags/carjacking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NIBRS</title>
-      <link>/tags/nibrs/</link>
+      <link>https://jacobkap.github.io/crimethoughts/tags/nibrs/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/nibrs/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/tags/nibrs/</guid>
       <description></description>
     </item>
     

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Thoughts About Crime Data and Research</title>
-    <link>/categories/</link>
+    <link>https://jacobkap.github.io/crimethoughts/categories/</link>
     <description>Recent content in Categories on Thoughts About Crime Data and Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jacobkap.github.io/crimethoughts/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academia</title>
-      <link>/categories/academia/</link>
+      <link>https://jacobkap.github.io/crimethoughts/categories/academia/</link>
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/categories/academia/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/categories/academia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Criminology</title>
-      <link>/categories/criminology/</link>
+      <link>https://jacobkap.github.io/crimethoughts/categories/criminology/</link>
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/categories/criminology/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/categories/criminology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NIBRS</title>
-      <link>/categories/nibrs/</link>
+      <link>https://jacobkap.github.io/crimethoughts/categories/nibrs/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/categories/nibrs/</guid>
+      <guid>https://jacobkap.github.io/crimethoughts/categories/nibrs/</guid>
       <description></description>
     </item>
     
