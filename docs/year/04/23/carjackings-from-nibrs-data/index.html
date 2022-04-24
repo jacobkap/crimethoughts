@@ -10,7 +10,7 @@
 <meta property="og:title" content="The Coming of the (Carjacking) Superpredator - Thoughts About Crime Data and Research">
 
 
-  <link href='https://jacobkap.github.io/crimethoughts/favicon.ico' rel='icon' type='image/x-icon'/>
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
 
 
 
@@ -22,8 +22,8 @@
 
 
 
-<link rel="stylesheet" href="/crimethoughts/css/fonts.css" media="all">
-<link rel="stylesheet" href="/crimethoughts/css/main.css" media="all">
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
 
 
 
@@ -32,8 +32,8 @@
     <div class="wrapper">
       <header class="header">
         <nav class="nav">
-  <a href="/crimethoughts/" class="nav-logo">
-    <img src="/crimethoughts/images/logo.png"
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
          width="50"
          height="50"
          alt="Logo">
@@ -41,7 +41,7 @@
 
   <ul class="nav-links">
     
-    <li><a href="/crimethoughts/about/">About</a></li>
+    <li><a href="/about/">About</a></li>
     
     <li><a href="https://github.com/jacobkap/crimethoughts">GitHub</a></li>
     
@@ -68,7 +68,7 @@
 
     <div class="article-content">
       
-<script src="https://jacobkap.github.io/crimethoughts/year/04/23/carjackings-from-nibrs-data/index_files/header-attrs/header-attrs.js"></script>
+<script src="/year/04/23/carjackings-from-nibrs-data/index_files/header-attrs/header-attrs.js"></script>
 
 
 <p>In 1995 John DiLulio, then a politics professor at Princeton, <a href="https://www.washingtonexaminer.com/weekly-standard/the-coming-of-the-super-predators">published in article</a> in the Weekly Standard about the coming wave of superpredators. These superpredators were essentially evil children who did nothing but commit serious crime. In his own words: “on the horizon, therefore, are tens of thousands of severely morally impoverished juvenile super-predators. They are perfectly capable of committing the most heinous acts of physical violence for the most trivial reasons (for example, a perception of slight disrespect or the accident of being in their path.)”<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> His predicted that these superpredators would create a huge increase of crime in the coming years.</p>
@@ -88,7 +88,7 @@
 <p>The percent change is actually bigger here, with a 51.4% increase from 2019 to 2020. Now we used NCVS data which is nationally representative. Our NIBRS data is not nationally representative, far from it. NCVS doesn’t allow us to be more detailed than national data or large subregions, so this is as good as we’ll get using this data. And no other data that I’m aware of can function as a replacement of NCVS. So is this a worthless exercise since we’re trying to use national data to adjust for missingness in non-representative non-national data?
 We looked at the data three ways: number of carjackings, share of carjackings out of robberies, and share when adjusting for underreporting. All told the same story of carjackings going up in 2020 compared to 2019, and all had a large effect size, though ranging pretty widely. All of these are certainly wrong, especially if we want to generalize beyond the agencies we have. But exercises like this are, I think, important to checking your findings. I think it’s important to first find an answer to your question and then try to kill that finding by measuring it many different ways. If the results still hold then it’s probably roughly accurate. In this case the NCVS comparison is probably too far of a stretch to be useful as it’s comparing national data to non-representative data, but it’s a useful example.</p>
 <p>Now let’s look at our second question, whether carjackers are frequently young. Here’s a graph showing the percent of carjackers of each age for offenders of carjackings in 2020. There are exactly 18,000 carjacking offenders in our data, but the age is unknown for 5,822 of them so this graph shows data for the 12,178 we have age info for. There are some clear data issues here - note the carjackers aged 1 and aged 100. And the spike at age 58.</p>
-<p><img src="https://jacobkap.github.io/crimethoughts/year/04/23/carjackings-from-nibrs-data/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="/year/04/23/carjackings-from-nibrs-data/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p>This group is certainly on the younger side - as all criminals are - but to me it doesn’t indicate that carjacking is hugely driven by youth. The mean age is 25 (median = 22) and about 21% of offenders are under the age of 18 meaning that the vast majority are adults. NIBRS age data is also perceived or suspected age unless the offender is identified. So reports of an increase in youth offenders can mechanically increase the share of youth offenders if victims now think their offender is younger than they would have otherwise said.</p>
 <p>Did 2020 have more youth offenders than 2019? The average age in 2019 is 25 (median = 22), the same as in 2020. The share of offenders under the age of 18 is 21%, again the same as in 2020. The total number of youth offenders did increase from 2,142 in 2019 to 2,544 in 2020 but that seems to be youth offenders increasing their carjacking at the same rate as adult offenders.</p>
 <p>So what does this cursory look at the data find? There is indeed an increase in carjackings from 2019 to 2020, though the exact size is very imprecise due to measurement problems. And the majority of carjacking offenders are adults, meaning that it is not driven by youth offenders. However, this is data from a non-representative sample of the US and largely excludes the largest cities so is likely not comparable to these cities where most of the current data on carjackings is reported from. The findings here are not the same as found in the reports in big cities. So are those reports wrong? Potentially. Reports about superpredators (or really any kind of scary fad) are probably more likely to make the news than regular boring crime. But it could be that there are true differences between some of the largest cities and the cities included in NIBRS data, which are much smaller on average. Most media and many academic papers focus on these extremely large cities, usually because they give better, timely data on important topics. But it can be misleading to generalize from these cities, as shown in this case.</p>
@@ -111,10 +111,10 @@ We looked at the data three ways: number of carjackings, share of carjackings ou
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/crimethoughts/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
           </li>
           <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/crimethoughts/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
           </li>
         </ul>
       </footer>
