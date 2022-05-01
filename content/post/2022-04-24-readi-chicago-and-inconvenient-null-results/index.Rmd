@@ -6,7 +6,7 @@ output:
   html_document:
     df_print: paged
   pdf_document: default
-categories: AcademiaaqzRT54D./
+categories: Academia
 tags: academia
 slug: readi-chicago-and-inconvenient-null-results
 ---

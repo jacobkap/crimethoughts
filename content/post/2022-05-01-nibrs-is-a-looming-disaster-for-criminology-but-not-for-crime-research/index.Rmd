@@ -1,14 +1,18 @@
 ---
-title: "NIBRS is a looming problem for criminology, not just for crime data"
-author: "Jacob Kaplan"
+title: NIBRS is a looming problem for criminology, not just for crime data
+author: Jacob Kaplan
 date: '2022-05-01'
+categories:
+  - NIBRS
+  - Academia
+  - Criminology
+tags:
+  - academia
+  - criminology
+  - NIBRS
 output:
   html_document:
     df_print: paged
-categories: NIBRS
-tags:
-- NIBRS
-- criminology
 slug: nibrs-is-a-looming-problem-for-criminology-not-just-for-crime-data
 ---
 
