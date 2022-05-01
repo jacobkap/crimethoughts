@@ -3,7 +3,7 @@ publishdir: docs
 languageCode: en-us
 title: Thoughts About Crime Data and Research
 theme: hugo-lithium
-googleAnalytics: ''
+googleAnalytics: 'G-7JY0J51ZRW'
 disqusShortname: ''
 ignoreFiles:
   - \.Rmd$
