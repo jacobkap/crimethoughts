@@ -6,7 +6,16 @@
     <description>Recent content in Academia on Thoughts About Crime Data and Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/academia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/academia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NIBRS is a looming problem for criminology, not just for crime data</title>
+      <link>/year/05/01/nibrs-is-a-looming-problem-for-criminology-not-just-for-crime-data/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/year/05/01/nibrs-is-a-looming-problem-for-criminology-not-just-for-crime-data/</guid>
+      <description>Last year marked the first year that the FBI stopped collecting Uniform Crime Reporting (UCR) data and only took National Incident-Based Reporting System (NIBRS) data from police agencies. Now, 16 months after they started collecting data we still have another 6 or 7 months to wait until they release the data, as the FBI normally releases NIBRS in October or November of the year following the data collection. NIBRS data has been around since 1991 so criminologists have had over 30 years to prepare for using NIBRS data instead of relying on UCR data.</description>
+    </item>
+    
     <item>
       <title>On Saying No</title>
       <link>/year/04/24/on-saying-no/</link>
@@ -15,6 +24,15 @@
       <guid>/year/04/24/on-saying-no/</guid>
       <description>Why say no This chapter is primarily focused towards academics conducting research. While it may apply to other fields, it discusses choosing which studies to conduct, which may be a privilege not afforded to other jobs. For this reason, please feel free to skip this chapter if you&amp;rsquo;d like.^[Academics who have more hourly tweets than lifetime publications should stop reading this chapter and start writing more papers.]
 Academia is built on uncertainty.</description>
+    </item>
+    
+    <item>
+      <title>READI Chicago and Press Release Research</title>
+      <link>/year/04/24/readi-chicago-and-inconvenient-null-results/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/year/04/24/readi-chicago-and-inconvenient-null-results/</guid>
+      <description>Recently the Chicago Crime Lab released a report about the effect of READI Chicago, an intervention that attempts to reduce gun violence by focusing on people at the highest likelihood of being the victim or perpetrator of such violence. Participants in this program are given an 18-month subsidized job and cognitive behavioral programming. The program costs about $60,000 per participant for a 20-month period so is a costly program.</description>
     </item>
     
   </channel>
