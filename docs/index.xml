@@ -6,7 +6,16 @@
     <description>Recent content on Thoughts About Crime Data and Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Most code you write for research is a waste of time (because someone else has already done it)</title>
+      <link>/year/05/02/most-code-you-write-for-research-is-a-waste-of-time-because-someone-else-has-already-done-it/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/year/05/02/most-code-you-write-for-research-is-a-waste-of-time-because-someone-else-has-already-done-it/</guid>
+      <description>It is very rare in criminology research to use quantitative data that no one has ever used before.1 It does happen. Primarily in surveys that the authors wrote themselves - including modifying past surveys - but also through collecting administrative data yourselves such as through data sharing agreements or FOIA requests. The majority of papers, however, rely on data the other people have used before. Often thousands of times before since many criminology papers use publicly available administrative data from government agencies such as the FBI, BJS, or local police departments.</description>
+    </item>
+    
     <item>
       <title>NIBRS is a looming problem for criminology, not just for crime data</title>
       <link>/year/05/01/nibrs-is-a-looming-problem-for-criminology-not-just-for-crime-data/</link>
