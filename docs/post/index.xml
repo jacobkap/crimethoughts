@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Thoughts About Crime Data and Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How bad is real estate crime data? Really bad</title>
+      <link>/year/05/13/how-bad-is-real-estate-crime-data-really-bad/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/year/05/13/how-bad-is-real-estate-crime-data-really-bad/</guid>
+      <description>There was a recent and popular tweet about how real estate agents can’t tell you anything about crime in the neighborhood you’re looking at due to concerns about racism.
+The article linked in the tweet, from the U.S. News &amp;amp; World Report said the following:
+Crime statistics and details about schools can be interpreted as references to race – a violation of the Fair Housing Act – which is why Relman says a real estate agent won’t tell you about crime in a neighborhood.</description>
+    </item>
+    
     <item>
       <title>Most code you write for research is a waste of time (because someone else has already done it)</title>
       <link>/year/05/02/most-code-you-write-for-research-is-a-waste-of-time-because-someone-else-has-already-done-it/</link>
